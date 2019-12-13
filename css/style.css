@@ -1,0 +1,77 @@
+/*font-family: playfair display,serif;*/
+/*font-family:  ubuntu,sans-serif;*/
+/*font-family: inconsolata,monospace;*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: playfair display,serif;
+	color:#626262;
+
+}
+/*this is header start*/
+header{
+	padding: 20px 0px;
+}
+
+.wrapper {
+	overflow:hidden;
+	width:90%;
+	/*border:1px solid red;*/
+	margin:0 auto;
+}
+
+.logo {
+	width: 15%;
+	/*border:1px solid green;*/
+	float:left;
+}
+.logo img{
+	width:100%;
+
+}
+
+.menu {
+	width: 70%;
+	/*border:1px solid green;*/
+	float:right;
+	margin:7px;
+}
+.menu ul{
+	float:right;
+
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+
+}
+.menu ul li a{
+	color:#626262;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding:0px 50px;
+	display: block;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right:0px;
+}
+.menu ul li a:hover{
+	color:#000000;
+}
+/*this is header start*/
+/*banner start*/
+.banner {
+}
+
+
+.b.img {
+}
+.b.img img{
+	width:100%;
+}
+/*banner end*/
